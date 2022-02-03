@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail-Shopee</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <!-- <img src="image/logo.png" width="125px"> -->
+                <a href="index.html" class="logo">
+                    <h1>Sho<span>pee</span></h1>
+                </a>
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="history.html">Orders</a></li>
+                    <li><a href="login.html">login</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="image/cart.png" width="30px" height="30px"></a>
+            <a href="profile.html"><i class="fas fa-user-alt person"></i></a>
+            <img src="image/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <!-- Single Product Details -->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="image/gallery-1.jpg" width="100%" id="productImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="image/gallery-1.jpg" width="100%" class="smallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="image/gallery-2.jpg" width="100%" class="smallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="image/gallery-3.jpg" width="100%" class="smallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="image/gallery-4.jpg" width="100%" class="smallImg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home / T-shirt</p>
+                <h1>Red Printed T-Shirt by HRX</h1>
+                <h4>$50.00</h4>
+                <select name="" id="">
+                    <option value="">Select Size</option>
+                    <option value="">XXL</option>
+                    <option value="">XL</option>
+                    <option value="">Large</option>
+                    <option value="">Medium</option>
+                    <option value="">Small</option>
+                </select>
+                <input type="number" value="1">
+                <a href="#" class="btn">Add To cart</a>
+                <h3>Product Detail <i class="fas fa-indent"></i></h3>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, dolor quasi autem magnam optio
+                    accusantium quam rem fugit suscipit, voluptatibus obcaecati asperiores eveniet cum doloribus?
+                    Facilis, inventore ducimus. Corporis praesentium ut exercitationem.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- title -->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+    </div>
+
+    <!-- products -->
+
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="image/product-9.jpg">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="image/product-10.jpg">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="image/product-11.jpg">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="image/product-12.jpg">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our Apps</h3>
+                    <p>Download Apps for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="image/play-store.png">
+                        <img src="image/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <!-- <img src="image/logo-white.png"> -->
+                    <h1>Sho<span>pee</span></h1>
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accesssible to the Many
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Youtube</li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <hr>
+            <p class="copyright">Copyright 2022 - The_AntaraWakte</p>
+        </div>
+    </div>
+
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight == "0px") {
+                menuitems.style.maxHeight = "250px"
+            } else {
+                menuitems.style.maxHeight = "0px"
+            }
+
+        }
+    </script>
+
+
+    <!-- js for product gallery -->
+    <script>
+        var productImg = document.getElementById("productImg");
+        var smallImg = document.getElementsByClassName("smallImg");
+
+        smallImg[0].onclick = function () {
+            productImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function () {
+            productImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function () {
+            productImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function () {
+            productImg.src = smallImg[3].src;
+        }
+
+    </script>
+</body>
+
+</html>
